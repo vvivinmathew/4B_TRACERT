@@ -15,12 +15,12 @@ otherwise it will send NACK signal to client.
 6. Stop the program 
  
 ## PROGRAM: 
- 
+ ```
 from scapy.all import* 
 target = ["www.google.com"] 
 result, unans = traceroute(target,maxttl=32) 
 print(result,unans) 
- 
+ ```
 ## OUTPUT: 
 
  ![Screenshot 2025-04-17 140605](https://github.com/user-attachments/assets/e160e97a-bccc-4bf2-bcdb-657de801bd3b)
